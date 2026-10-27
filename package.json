@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "vite dev",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true
+  }
+}
