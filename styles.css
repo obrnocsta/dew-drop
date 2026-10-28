@@ -199,6 +199,80 @@ section {
   padding: 6rem 0;
 }
 
+/* ── Sale ───────────────────────────── */
+
+.sale {
+  padding: 3rem 0;
+}
+
+.sale-banner {
+  background: linear-gradient(135deg, var(--accent) 0%, #26b18c 100%);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sale-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.sale-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.4rem 1rem;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.sale-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.02em;
+  position: relative;
+  z-index: 1;
+}
+
+.sale-text {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.95;
+  position: relative;
+  z-index: 1;
+}
+
+.sale-price {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.sale .btn-primary {
+  background: #fff;
+  color: var(--accent);
+  position: relative;
+  z-index: 1;
+}
+
+.sale .btn-primary:hover {
+  background: #f5f5f5;
+  color: var(--accent-hover);
+}
+
 .section-title {
   font-size: 2rem;
   font-weight: 700;
@@ -374,6 +448,27 @@ section {
 
   section {
     padding: 4rem 0;
+  }
+
+  .sale {
+    padding: 2rem 0;
+  }
+
+  .sale-banner {
+    padding: 2.25rem 1.5rem;
+    border-radius: 16px;
+  }
+
+  .sale-title {
+    font-size: 2rem;
+  }
+
+  .sale-text {
+    font-size: 1.1rem;
+  }
+
+  .sale-price {
+    font-size: 1.5rem;
   }
 
   .section-title {
